@@ -35,7 +35,7 @@ const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
     const endpoint = isLogin ? 'login' : 'signup';
     
     try {
-      const response = await fetch(`http://localhost:5000/api/users/${endpoint}`, {
+      const response = await fetch(`https://saas-backend-tqzv.onrender.com/api/users/${endpoint}`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

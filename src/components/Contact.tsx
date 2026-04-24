@@ -29,7 +29,7 @@ const Contact = () => {
         setSuccessMsg(null); // Purane success messages saaf karein
 
         try{
-            const response = await fetch("http://localhost:5000/api/contact", {
+            const response = await fetch("https://saas-backend-tqzv.onrender.com/api/contact", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(data),
