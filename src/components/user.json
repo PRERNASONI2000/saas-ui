@@ -1,0 +1,65 @@
+[
+  {
+   "id": 1,
+    "name": "John Doe",
+    "role": "Frontend Developer",
+    "text": "This platform helped me build stunning UI easily!",
+    "image": "/img/user1.jpg"
+  },
+  {
+   "id": 2,
+    "name": "Sarah Jenkins",
+    "role": "UI/UX Designer",
+    "text": "The design tools are a game changer for my creative workflow.",
+    "image": "/img/user2.jpg"
+  },
+  {
+   "id": 3,
+    "name": "Michael Chen",
+    "role": "Backend Developer",
+    "text": "Integration was seamless. Highly recommend for scaling projects.",
+    "image": "/img/user3.jpg"
+  },
+  {
+   "id": 4,
+    "name": "Emily Davis",
+    "role": "Product Manager",
+    "text": "Finally a solution that bridges the gap between design and code.",
+    "image": "/img/user4.jpg"
+  },
+  {
+   "id": 5,
+    "name": "David Smith",
+    "role": "Full Stack Engineer",
+    "text": "Clean code, great components, and even better support team.",
+    "image": "/img/user5.jpg"
+  },
+  {
+   "id": 6,
+    "name": "Sophia Rodriguez",
+    "role": "Creative Director",
+    "text": "Transformed our team's productivity overnight. Simply brilliant.",
+    "image": "/img/user6.jpg"
+  },
+  {
+   "id": 7,
+    "name": "James Wilson",
+    "role": "Tech Lead",
+    "text": "Robust, reliable, and incredibly flexible for complex enterprise apps.",
+    "image": "/img/user7.jpg"
+  },
+  {
+   "id": 8,
+    "name": "Olivia Brown",
+    "role": "Freelance Designer",
+    "text": "Perfect for rapid prototyping. My clients love the final results!",
+    "image": "/img/user11.jpg"
+  },
+  {
+   "id": 9,
+    "name": "Liam Taylor",
+    "role": "Software Architect",
+    "text": "The best UI library I've used in years. Performance is top-notch.",
+    "image": "/img/user10.jpg"
+  }
+]
