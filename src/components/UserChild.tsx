@@ -1,4 +1,4 @@
-import React from "react";
+
 import { QuoteIcon } from "lucide-react";
 
 interface userprops  {

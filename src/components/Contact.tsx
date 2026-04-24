@@ -1,11 +1,11 @@
-import React, {useState} from "react";
+import {useState} from "react";
 import { motion } from "framer-motion";
 import SuccessModal from "../UI/SuccessModel";
 import ErrorModal from "../UI/ErrorModel";
 import LoadingSpinner from "../UI/LoadingSpinner";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
-import { s } from "framer-motion/client";
+// import { s } from "framer-motion/client";
 
     // 1. Define what your form looks like
 interface ContactFormData {
@@ -20,7 +20,7 @@ const Contact = () => {
    const [error, setError] = useState<string | null>(null);
 
     // Setup Form
-    const { register, handleSubmit, formState: { errors }, reset } = useForm<ContactFormData>();
+    const { register, handleSubmit, formState: { errors } } = useForm<ContactFormData>();
     // Submit Function
     const onSubmit = async (data:ContactFormData) => {
       

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const UserList = () => {
   const [isLoading, setIsLoading] = useState(false); //Jab tak data aa raha hai, tab tak loading spinner dikhane ke liye.

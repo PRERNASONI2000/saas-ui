@@ -1,6 +1,6 @@
-import React from "react";
-import { useState, useEffect } from "react";
-import { Search, X } from "lucide-react";
+
+import { useState } from "react";
+import { Search } from "lucide-react";
 
 const Filterdata = [
     {
@@ -22,7 +22,9 @@ const SearchInput = () => {
     const[search, setSearch] = useState("");
 
     const filterdata = () => {
-        item.title.toLowerCase().includes(search.toLowerCase())
+        return Filterdata.filter(item =>
+            item.title.toLowerCase().includes(search.toLowerCase())
+        );
     }
 
     return(
@@ -40,7 +42,7 @@ const SearchInput = () => {
 
               <div className="mt-6 space-y-3">
   {filterdata.length > 0 ? (
-    filterdata.map(item => (
+    filterdata().map(item => (
       <div
         key={item.id}
         className="p-4 bg-white rounded-lg shadow hover:shadow-md transition"

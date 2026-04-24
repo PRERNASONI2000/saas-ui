@@ -1,7 +1,10 @@
-import React from "react";
 import { motion } from "framer-motion";
 
-const LoadingSpinner = ({ asOverlay }) => {
+interface LoadingSpinnerProps {
+  asOverlay?: boolean;
+}
+
+const LoadingSpinner = ({ asOverlay }: LoadingSpinnerProps) => {
   return (
     <div className={`${asOverlay ? 'fixed inset-0 z-[200] flex items-center justify-center bg-black/40 backdrop-blur-sm' : 'flex justify-center items-center p-4'}`}>
       <div className="relative flex items-center justify-center">
